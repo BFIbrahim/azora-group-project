@@ -1,9 +1,11 @@
 import React from 'react';
 import { Outlet } from 'react-router';
+import Navbar from '../Pages/Shared/Navbar';
 
 const RootLayout = () => {
     return (
         <div>
+            <Navbar />
             <Outlet />
         </div>
     );
