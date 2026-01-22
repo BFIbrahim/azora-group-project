@@ -6,7 +6,7 @@ import { router } from './router/router.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div className='bg-[#26262B] min-h-screen'>
+    <div className='bg-[#26262B] min-h-screen max-w-[1440px] mx-auto'>
       <RouterProvider router={router} />
     </div>
   </StrictMode>,

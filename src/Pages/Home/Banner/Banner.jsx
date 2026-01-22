@@ -5,7 +5,7 @@ import { FcGoogle } from "react-icons/fc";
 
 const Banner = () => {
   return (
-    <section className="relative min-h-[600px] w-full overflow-hidden bg-[#26262B] py-20 font-sans text-white">
+    <section className="relative min-h-[600px] w-[1180px] mx-auto overflow-hidden bg-[#26262B] py-20 font-sans text-white">
       <div className="relative z-10 flex flex-col items-center text-center">
         <div className="mb-8 flex h-20 w-20 items-center justify-center rounded-2xl bg-black shadow-xl">
           <img src="https://i.ibb.co.com/FkSGVCCp/azora-logo.png" alt="Setapp Logo" />
